@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;600;700&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    font-family: 'Familjen Grotesk', sans-serif;
+    background-color: black;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    list-style: none;
+}
+/* navbar logo and menu */
+.main-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding:0 30px;
+}
+/* logo */
+.logo{
+    min-width: 200px;
+    height: auto;
+}
+.logo img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+/* menu in navbar */
+.navbar{
+margin-right: 50px;
+}
+.navbar ul{
+    display: flex;
+    
+    
+}
+
+.navbar ul li{
+    margin-right: 20px;
+}
+
+/* section */
+section{
+    position: relative;
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.section-inside{
+    position: absolute;
+    bottom: 100px;
+    left:70px;
+    max-width: 560px;
+}
+
+.section-inside h4{
+    font-size: 18px;
+    font-weight: lighter;
+}
+.section-inside h2{
+    font-size: 50px;
+    font-weight:700;
+}
+
+/* backgroun image */
+.section1{
+    background-image: url(Home1.jpg);
+}
+.section2{
+    background-image: url(Home2.jpg);
+}
+.section3{
+    background-image: url(Home3.jpg);
+}
+.section4{
+    background-image: url(Home4.jpg);
+}
+.section5{
+    background-image: url(Home5.jpg);
+}
+
+.but{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    min-width: 130px;
+    padding: 15px 50px;
+    margin-top: 10px;
+    border: 2px;
+    border-color: white;
+    border-style: solid;
+
+}
+/* footer */
+
+footer{
+    position: relative;
+    padding: 55px 0;
+
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-wrap: wrap;
+}
+footer ul li{
+    margin-right: 30px;
+    color: #aaa;
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 2.5;
+}
+
+
+
